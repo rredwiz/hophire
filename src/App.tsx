@@ -1,16 +1,11 @@
-import Button from './Components/Button.tsx';
-import NavTitle from './Components/nav/NavTitle.tsx';
+import Nav from './Components/nav/Nav.tsx';
 
 function App() {
-  const handleClick = () => {
-    alert('button was clicked');
-  }
 
   return (
-    <div>
-      <NavTitle/>
-      <Button label="click me" onClick={handleClick}/>
-    </div>
+    <>
+      <Nav/>
+    </>
   ) 
 }
 
