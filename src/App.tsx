@@ -1,7 +1,17 @@
-import Message from './Components/Message.tsx';
+import Button from './Components/Button.tsx';
+import NavTitle from './Components/nav/NavTitle.tsx';
 
 function App() {
-  return <div><Message/></div>
+  const handleClick = () => {
+    alert('button was clicked');
+  }
+
+  return (
+    <div>
+      <NavTitle/>
+      <Button label="click me" onClick={handleClick}/>
+    </div>
+  ) 
 }
 
 export default App;
