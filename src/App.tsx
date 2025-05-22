@@ -1,12 +1,13 @@
-import Nav from './Components/nav/Nav.tsx';
+import SearchBody from "./Components/content/SearchBody.tsx";
+import Nav from "./Components/navigation/Nav.tsx";
 
 function App() {
-
-  return (
-    <>
-      <Nav/>
-    </>
-  ) 
+    return (
+        <>
+            <Nav />
+            <SearchBody />
+        </>
+    );
 }
 
 export default App;
