@@ -1,54 +1,14 @@
-# React + TypeScript + Vite
+# hophire
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project that allows users to search for tech-related jobs. It's currently just a frontend, but will be expanded and continued.
 
-Currently, two official plugins are available:
+### Expected features to come:
+* Job search utilities.
+* User authentication with personal statistics.
+* Live application tracker and progress viewer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Current Progress
 
-## Expanding the ESLint configuration
+Currently I have some simple static ui. The empty cards will be filled with job-related information.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+![hophire main search ui](https://media.discordapp.net/attachments/1279540253643771917/1374908237626736700/image.png?ex=682fc294&is=682e7114&hm=5a809ad6b38481988eda2eb991241474d503d797fa684d60338a0150c0ee39ce&=&format=webp&quality=lossless&width=1050&height=531)
